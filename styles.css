@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: #1d1e22;
+    
+  }
+  #prueba{
+    font-size: xx-large;
+    color: antiquewhite;
+    margin:5vw;
+  }
+  #parallaxSection{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 90vh;
+  }
+  #parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./guy1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+  }
+  h1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Arial";
+    text-transform: uppercase;
+    opacity: .2;
+    font-size: 70px;
+  }
